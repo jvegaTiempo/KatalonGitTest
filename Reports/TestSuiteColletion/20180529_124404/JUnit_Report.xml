@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteColletion" time="14" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuiteColletion" tests="2" failures="0" errors="0" time="14" timestamp="2018-05-29 12:44:10" hostname="jessica vega - TDG-MBL-MTY0160.tiempodev.local" id="Test Suites/TestSuiteColletion">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\TestSuiteColletion\\20180529_124404"/>
+         <property name="logFiles" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\TestSuiteColletion\\20180529_124404\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jessica vega - TDG-MBL-MTY0160.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.23.0.1"/>
+         <property name="sessionId" value="18f82974a6fc372a91abda826d2bfd56"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestsByTom/Test1ByTom" classname="Test Cases/TestsByTom/Test1ByTom" status="PASSED">
+         <system-out><![CDATA[2018-05-29 12:44:11 - [TEST_CASE][PASSED] - Test Cases/TestsByTom/Test1ByTom: Test Cases/TestsByTom/Test1ByTom
+
+2018-05-29 12:44:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-29 12:44:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-29 12:44:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lifecharger.org' successfully
+
+2018-05-29 12:44:18 - [MESSAGE][PASSED] - Navigate to 'http://lifecharger.org' successfully
+
+2018-05-29 12:44:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-29 12:44:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestsByKim/Test2ByKim" classname="Test Cases/TestsByKim/Test2ByKim" status="PASSED">
+         <system-out><![CDATA[2018-05-29 12:44:18 - [TEST_CASE][PASSED] - Test Cases/TestsByKim/Test2ByKim: Test Cases/TestsByKim/Test2ByKim
+
+2018-05-29 12:44:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.katalon.com'
+
+2018-05-29 12:44:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com'
+
+2018-05-29 12:44:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-29 12:44:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-29 12:44:10 - [TEST_SUITE][PASSED] - TestSuiteColletion: Test Cases/TestsByKim/Test2ByKim]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
