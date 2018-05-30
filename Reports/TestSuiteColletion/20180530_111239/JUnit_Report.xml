@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteColletion" time="22" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuiteColletion" tests="3" failures="0" errors="0" time="22" timestamp="2018-05-30 11:12:45" hostname="jessica vega - TDG-MBL-MTY0160.tiempodev.local" id="Test Suites/TestSuiteColletion">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\TestSuiteColletion\\20180530_111239"/>
+         <property name="logFiles" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\TestSuiteColletion\\20180530_111239\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jessica vega - TDG-MBL-MTY0160.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.23.0.1"/>
+         <property name="sessionId" value="5dc0b40f568dcae88c78dfbaf506812f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestsByTom/Test1ByTom" classname="Test Cases/TestsByTom/Test1ByTom" status="PASSED">
+         <system-out><![CDATA[2018-05-30 11:12:45 - [TEST_CASE][PASSED] - Test Cases/TestsByTom/Test1ByTom: Test Cases/TestsByTom/Test1ByTom
+
+2018-05-30 11:12:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 11:12:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 11:12:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://lifecharger.org' successfully
+
+2018-05-30 11:12:51 - [MESSAGE][PASSED] - Navigate to 'http://lifecharger.org' successfully
+
+2018-05-30 11:12:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-30 11:12:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestsByKim/Test2ByKim" classname="Test Cases/TestsByKim/Test2ByKim" status="PASSED">
+         <system-out><![CDATA[2018-05-30 11:12:52 - [TEST_CASE][PASSED] - Test Cases/TestsByKim/Test2ByKim: Test Cases/TestsByKim/Test2ByKim
+
+2018-05-30 11:12:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.katalon.com'
+
+2018-05-30 11:12:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com'
+
+2018-05-30 11:12:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-30 11:12:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestsByTom/Test2ByTom" classname="Test Cases/TestsByTom/Test2ByTom" status="PASSED">
+         <system-out><![CDATA[2018-05-30 11:12:58 - [TEST_CASE][PASSED] - Test Cases/TestsByTom/Test2ByTom: Test Cases/TestsByTom/Test2ByTom
+
+2018-05-30 11:12:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-30 11:13:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-30 11:13:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.udemy.com/' successfully
+
+2018-05-30 11:13:07 - [MESSAGE][PASSED] - Navigate to 'https://www.udemy.com/' successfully
+
+2018-05-30 11:13:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-30 11:13:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-30 11:12:45 - [TEST_SUITE][PASSED] - TestSuiteColletion: Test Cases/TestsByTom/Test2ByTom]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
