@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteWithExcelFile,Firefox 61.0,,2018-08-17 11:18:21,2018-08-17 11:18:32,11.127s,ERROR
+,,,,,,
+Test Cases/Environments/TC1EnvWithExcelFile,Firefox 61.0,,2018-08-17 11:18:21,2018-08-17 11:18:27,5.464s,ERROR
+openBrowser,Firefox 61.0,,2018-08-17 11:18:21,2018-08-17 11:18:24,3.107s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-17 11:18:24,2018-08-17 11:18:27,2.136s,PASSED
+setText,Firefox 61.0,,2018-08-17 11:18:27,2018-08-17 11:18:27,0.022s,PASSED
+,,,,,,
+Test Cases/Environments/TC1EnvWithExcelFile,Firefox 61.0,,2018-08-17 11:18:27,2018-08-17 11:18:32,5.168s,ERROR
+openBrowser,Firefox 61.0,,2018-08-17 11:18:27,2018-08-17 11:18:30,3.001s,PASSED
+navigateToUrl,Firefox 61.0,,2018-08-17 11:18:30,2018-08-17 11:18:32,2.129s,PASSED
+setText,Firefox 61.0,,2018-08-17 11:18:32,2018-08-17 11:18:32,0.010s,PASSED

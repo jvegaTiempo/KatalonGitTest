@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API_UserValidation,,,2018-12-11 10:25:02,2018-12-11 10:25:06,3.379s,PASSED
+,,,,,,
+Test Cases/APITesting/ValidateUserDetails,,,2018-12-11 10:25:02,2018-12-11 10:25:06,3.122s,PASSED
+"response = sendRequest(findTestObject(""REST_User/GetUserDetails""))",,,2018-12-11 10:25:03,2018-12-11 10:25:05,2.781s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2018-12-11 10:25:05,2018-12-11 10:25:06,0.012s,PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Janet"")",,,2018-12-11 10:25:06,2018-12-11 10:25:06,0.045s,PASSED

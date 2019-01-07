@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API_UserValidation" time="3" tests="1" failures="0" errors="0">
+   <testsuite name="API_UserValidation" tests="1" failures="0" errors="0" time="3" timestamp="2018-12-11 10:25:02" hostname="jessica vega - TDG-MBL-MTY0160.mshome.net" id="Test Suites/APITesting/API_UserValidation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\APITesting\\API_UserValidation\\20181211_102500"/>
+         <property name="logFiles" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\APITesting\\API_UserValidation\\20181211_102500\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jessica vega - TDG-MBL-MTY0160.mshome.net"/>
+         <property name="hostAddress" value="172.31.162.49"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/APITesting/ValidateUserDetails" classname="Test Cases/APITesting/ValidateUserDetails" status="PASSED">
+         <system-out><![CDATA[2018-12-11 10:25:02 - [TEST_CASE][PASSED] - Test Cases/APITesting/ValidateUserDetails: Test Cases/APITesting/ValidateUserDetails
+
+2018-12-11 10:25:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("REST_User/GetUserDetails")): Send request successfully
+
+2018-12-11 10:25:05 - [MESSAGE][INFO] - HAR: C:\Users\jessica vega\git\KatalonGitTest\Reports\APITesting\API_UserValidation\20181211_102500\requests\main\0.har
+
+2018-12-11 10:25:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-11 10:25:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-11 10:25:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-11 10:25:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.first_name", "Janet"): Verify element property value successfully
+
+2018-12-11 10:25:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-11 10:25:02 - [TEST_SUITE][PASSED] - API_UserValidation: Test Cases/APITesting/ValidateUserDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

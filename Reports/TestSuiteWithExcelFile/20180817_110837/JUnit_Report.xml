@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteWithExcelFile" time="28" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuiteWithExcelFile" tests="2" failures="0" errors="0" time="28" timestamp="2018-08-17 11:08:39" hostname="jessica vega - TDG-MBL-MTY0160.mshome.net" id="Test Suites/TestSuiteWithExcelFile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\TestSuiteWithExcelFile\\20180817_110837"/>
+         <property name="logFiles" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\TestSuiteWithExcelFile\\20180817_110837\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jessica vega - TDG-MBL-MTY0160.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.25.29.97"/>
+         <property name="sessionId" value="597a28aa2830d7f5d4b66b1acbd8a259"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Environments/TC1EnvWithExcelFile" classname="Test Cases/Environments/TC1EnvWithExcelFile" status="PASSED">
+         <system-out><![CDATA[2018-08-17 11:08:39 - [TEST_CASE][PASSED] - Test Cases/Environments/TC1EnvWithExcelFile: Test Cases/Environments/TC1EnvWithExcelFile
+
+2018-08-17 11:08:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-17 11:08:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-17 11:08:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2018-08-17 11:08:44 - [MESSAGE][PASSED] - Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2018-08-17 11:08:44 - [TEST_STEP][PASSED] - setText: Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtUsername'
+
+2018-08-17 11:08:44 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtUsername'
+
+2018-08-17 11:08:44 - [TEST_STEP][PASSED] - setText: Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtPassword'
+
+2018-08-17 11:08:44 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtPassword'
+
+2018-08-17 11:08:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_/input_Submit' is clicked on
+
+2018-08-17 11:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_/input_Submit' is clicked on
+
+2018-08-17 11:08:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' is clicked on
+
+2018-08-17 11:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' is clicked on
+
+2018-08-17 11:08:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Recruitment' is clicked on
+
+2018-08-17 11:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Recruitment' is clicked on
+
+2018-08-17 11:08:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/a_Logout' is clicked on
+
+2018-08-17 11:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/a_Logout' is clicked on
+
+2018-08-17 11:08:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-17 11:08:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Environments/TC1EnvWithExcelFile" classname="Test Cases/Environments/TC1EnvWithExcelFile" status="PASSED">
+         <system-out><![CDATA[2018-08-17 11:08:53 - [TEST_CASE][PASSED] - Test Cases/Environments/TC1EnvWithExcelFile: Test Cases/Environments/TC1EnvWithExcelFile
+
+2018-08-17 11:08:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-17 11:08:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-17 11:08:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2018-08-17 11:08:57 - [MESSAGE][PASSED] - Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2018-08-17 11:08:57 - [TEST_STEP][PASSED] - setText: Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtUsername'
+
+2018-08-17 11:08:57 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtUsername'
+
+2018-08-17 11:08:57 - [TEST_STEP][PASSED] - setText: Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtPassword'
+
+2018-08-17 11:08:57 - [MESSAGE][PASSED] - Text 'opensourcecms' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtPassword'
+
+2018-08-17 11:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_/input_Submit' is clicked on
+
+2018-08-17 11:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_/input_Submit' is clicked on
+
+2018-08-17 11:09:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' is clicked on
+
+2018-08-17 11:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' is clicked on
+
+2018-08-17 11:09:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Recruitment' is clicked on
+
+2018-08-17 11:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Recruitment' is clicked on
+
+2018-08-17 11:09:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/a_Logout' is clicked on
+
+2018-08-17 11:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/a_Logout' is clicked on
+
+2018-08-17 11:09:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-17 11:09:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-17 11:08:39 - [TEST_SUITE][PASSED] - TestSuiteWithExcelFile: Test Cases/Environments/TC1EnvWithExcelFile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

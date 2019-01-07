@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TestSuiteUseXlsxFile</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-08-17T11:21:14</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>51657c1c-b8ce-4fc1-a24d-68b87087d22e</testSuiteGuid>
+   <testCaseLink>
+      <guid>ed547146-1203-435b-bb2f-737d91d1f22f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Environments/TC1EnvUseXlsxFile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>75f5fc05-6039-4a88-a485-9134c1ab1944</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dataSourceFiles/dataSource</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>75f5fc05-6039-4a88-a485-9134c1ab1944</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>User</value>
+         <variableId>cba2b55b-4a64-4ea0-b92b-567d1be45eaa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>75f5fc05-6039-4a88-a485-9134c1ab1944</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>685c25fb-cdc9-4fe3-8b95-b33ffb1f9f59</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1EnvUseXlsxFile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c18d6ab-3768-45f3-a09a-4537debee440</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cba2b55b-4a64-4ea0-b92b-567d1be45eaa</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>685c25fb-cdc9-4fe3-8b95-b33ffb1f9f59</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
