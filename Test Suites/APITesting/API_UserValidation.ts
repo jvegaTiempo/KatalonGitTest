@@ -4,7 +4,7 @@
    <name>API_UserValidation</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-11T10:25:00</lastRun>
+   <lastRun>2019-01-07T17:22:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/APITesting/ValidateUserDetailsSOAP</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1720fe4d-0591-44a5-8e2f-f666e10ba25e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/APITesting/GetCapitalSOAP</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

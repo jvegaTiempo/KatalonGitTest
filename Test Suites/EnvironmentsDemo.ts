@@ -4,6 +4,7 @@
    <name>EnvironmentsDemo</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-01-07T17:31:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
