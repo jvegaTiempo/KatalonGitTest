@@ -12,7 +12,7 @@ WebUI.setText(findTestObject('OrangeHRCRM/Page_/input_txtUsername'), GlobalVaria
 
 WebUI.setText(findTestObject('OrangeHRCRM/Page_/input_txtPassword'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('OrangeHRCRM/Page_/input_Submit'))
+WebUI.click(findTestObject('OrangeHRCRM/Page_/Submit'))
 
 WebUI.click(findTestObject('OrangeHRCRM/Page_OrangeHRM/span_Admin'))
 

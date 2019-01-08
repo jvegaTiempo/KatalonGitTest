@@ -10,7 +10,7 @@ WebUI.setText(findTestObject('OrangeHRCRM/Page_/input_txtUsername'), User)
 
 WebUI.setText(findTestObject('OrangeHRCRM/Page_/input_txtPassword'), Password)
 
-WebUI.click(findTestObject('OrangeHRCRM/Page_/input_Submit'))
+WebUI.click(findTestObject('OrangeHRCRM/Page_/Submit'))
 
 WebUI.click(findTestObject('OrangeHRCRM/Page_OrangeHRM/span_Admin'))
 

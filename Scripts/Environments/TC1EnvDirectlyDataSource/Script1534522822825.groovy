@@ -16,7 +16,7 @@ for (def rowNum = 1; rowNum <= excelData.getRowNumbers(); rowNum++) {
     Thread.sleep(3000)
 }
 
-WebUI.click(findTestObject('OrangeHRCRM/Page_/input_Submit'))
+WebUI.click(findTestObject('OrangeHRCRM/Page_/Submit'))
 
 WebUI.click(findTestObject('OrangeHRCRM/Page_OrangeHRM/span_Admin'))
 

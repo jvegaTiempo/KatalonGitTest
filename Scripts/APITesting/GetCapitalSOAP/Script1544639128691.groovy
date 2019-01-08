@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 //First, call endpoint 'ListCountries' and save its response into response variable
 response = WS.sendRequest(findTestObject('SOAP_CountryInfoService/ListCountries'))
 
-//Save response in 'xml1' variable. this is a new input for GitHub repo.
+//Save response in 'xml1' variable.
 String xml1 = response.responseBodyContent
 
 //Parsing xml1 variable
