@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_txtPassword</name>
+   <name>Submit</name>
    <tag></tag>
-   <elementGuidId>7dfe09e7-c494-4c34-8fe1-f17f34fd140d</elementGuidId>
+   <elementGuidId>1b5d4362-01c1-460c-b72f-e8f675cde404</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@name = 'txtPassword' and @id = 'txtPassword' and @type = 'password']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//input[@type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;btnLogin&quot;)[count(. | //input[@type = 'submit' and @name = 'Submit' and @class = 'button' and @id = 'btnLogin' and @value = 'LOGIN']) = count(//input[@type = 'submit' and @name = 'Submit' and @class = 'button' and @id = 'btnLogin' and @value = 'LOGIN'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,29 +30,43 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>txtPassword</value>
+      <value>Submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txtPassword</value>
+      <value>btnLogin</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>value</name>
       <type>Main</type>
-      <value>password</value>
+      <value>LOGIN</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txtPassword&quot;)</value>
+      <value>id(&quot;btnLogin&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
