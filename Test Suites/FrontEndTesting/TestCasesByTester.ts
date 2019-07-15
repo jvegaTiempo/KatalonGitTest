@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
-   <name>API_UserValidation</name>
+   <description>Test1 and Test2</description>
+   <name>TestCasesByTester</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-09T22:40:11</lastRun>
+   <lastRun>2018-05-30T11:14:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>7b773a07-fea0-4997-9574-6e5192b29a33</testSuiteGuid>
+   <testSuiteGuid>833234b7-0828-4ca5-9a7e-1c3dddce66c2</testSuiteGuid>
    <testCaseLink>
-      <guid>404957fc-f9a7-46ea-8c7c-0e15253b13ba</guid>
+      <guid>58680352-77fa-4a14-b13a-0ded742ae02d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/APITesting/GetCapitalSOAP</testCaseId>
+      <testCaseId>Test Cases/TestsByTom/Test1ByTom</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f99fe345-9587-4164-bf7c-0bf6bd78b2ef</guid>
+      <guid>670985d8-616a-47bf-9c9b-0ba1322d4163</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/APITesting/UpdateUserREST</testCaseId>
+      <testCaseId>Test Cases/TestsByKim/Test2ByKim</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>13570b7c-7fdd-4219-bed8-95d77b54a1e1</guid>
+      <guid>9e58bc84-c11a-4750-a42d-c5d4ecbde1c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/APITesting/ValidateUserDetailsSOAP</testCaseId>
+      <testCaseId>Test Cases/TestsByTom/Test2ByTom</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
