@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Nivel1,,,2019-01-08 15:49:35,2019-01-08 15:49:39,3.503s,FAILED
+,,,,,,
+Test Cases/Environments/TC1Env,,,2019-01-08 15:49:36,2019-01-08 15:49:38,2.726s,FAILED
+"openBrowser("""")",,,2019-01-08 15:49:36,2019-01-08 15:49:38,2.504s,FAILED

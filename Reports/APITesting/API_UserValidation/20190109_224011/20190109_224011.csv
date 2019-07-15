@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API_UserValidation,,,2019-01-09 22:40:13,2019-01-09 22:40:31,17.581s,FAILED
+,,,,,,
+Test Cases/APITesting/GetCapitalSOAP,,,2019-01-09 22:40:14,2019-01-09 22:40:28,14.278s,PASSED
+"response = sendRequest(findTestObject(""SOAP_CountryInfoService/ListCountries""))",,,2019-01-09 22:40:14,2019-01-09 22:40:22,8.010s,PASSED
+xml1 = responseBodyContent,,,2019-01-09 22:40:22,2019-01-09 22:40:22,0.288s,PASSED
+dataValue = XmlSlurper().parseText(xml1),,,2019-01-09 22:40:22,2019-01-09 22:40:22,0.032s,PASSED
+countryCode = sISOCode.text(),,,2019-01-09 22:40:22,2019-01-09 22:40:22,0.009s,PASSED
+"println(""The extracted country code is: "" + countryCode)",,,2019-01-09 22:40:22,2019-01-09 22:40:22,0.001s,PASSED
+countryISOCode = countryCode,,,2019-01-09 22:40:22,2019-01-09 22:40:22,0.009s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP_CountryInfoService/GetCapital""))",,,2019-01-09 22:40:22,2019-01-09 22:40:28,5.627s,PASSED
+,,,,,,
+Test Cases/APITesting/UpdateUserREST,,,2019-01-09 22:40:28,2019-01-09 22:40:30,2.127s,FAILED
+"response = sendRequest(findTestObject(""REST_User/ListUsers""))",,,2019-01-09 22:40:28,2019-01-09 22:40:29,1.169s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-01-09 22:40:29,2019-01-09 22:40:29,0.029s,PASSED
+result = slurper.parseText(response.getResponseBodyContent()),,,2019-01-09 22:40:29,2019-01-09 22:40:29,0.022s,PASSED
+value = first_name,,,2019-01-09 22:40:29,2019-01-09 22:40:29,0.012s,PASSED
+"println(""... Value extracted is: "" + value)",,,2019-01-09 22:40:29,2019-01-09 22:40:29,0.002s,PASSED
+userName = value,,,2019-01-09 22:40:29,2019-01-09 22:40:29,0.002s,PASSED
+"println(""... Global Variable 'userName' now is: "" + userName)",,,2019-01-09 22:40:29,2019-01-09 22:40:29,0.002s,PASSED
+"sendRequestAndVerify(findTestObject(""REST_User/UpdateUser""))",,,2019-01-09 22:40:29,2019-01-09 22:40:30,0.715s,FAILED
+,,,,,,
+Test Cases/APITesting/ValidateUserDetailsSOAP,,,2019-01-09 22:40:30,2019-01-09 22:40:31,0.921s,PASSED
+"response = sendRequest(findTestObject(""REST_User/GetUserDetails""))",,,2019-01-09 22:40:30,2019-01-09 22:40:31,0.761s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-01-09 22:40:31,2019-01-09 22:40:31,0.001s,PASSED
+"verifyElementPropertyValue(response, ""data.first_name"", ""Janet"")",,,2019-01-09 22:40:31,2019-01-09 22:40:31,0.012s,PASSED

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Nivel1,Firefox 64.0,,2019-01-08 15:47:04,2019-01-08 15:47:19,15.339s,PASSED
+,,,,,,
+Test Cases/Environments/TC1Env,Firefox 64.0,,2019-01-08 15:47:04,2019-01-08 15:47:19,15.075s,PASSED
+"openBrowser("""")",Firefox 64.0,,2019-01-08 15:47:04,2019-01-08 15:47:08,4.120s,PASSED
+navigateToUrl(URL),Firefox 64.0,,2019-01-08 15:47:08,2019-01-08 15:47:10,2.054s,PASSED
+"setText(findTestObject(""OrangeHRCRM/Page_/input_txtUsername""), User)",Firefox 64.0,,2019-01-08 15:47:10,2019-01-08 15:47:11,0.101s,PASSED
+"setText(findTestObject(""OrangeHRCRM/Page_/input_txtPassword""), Password)",Firefox 64.0,,2019-01-08 15:47:11,2019-01-08 15:47:11,0.061s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_/Submit""))",Firefox 64.0,,2019-01-08 15:47:11,2019-01-08 15:47:13,2.683s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_OrangeHRM/span_Admin""))",Firefox 64.0,,2019-01-08 15:47:13,2019-01-08 15:47:16,2.218s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_OrangeHRM/span_Recruitment""))",Firefox 64.0,,2019-01-08 15:47:16,2019-01-08 15:47:18,2.039s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_OrangeHRM/a_Logout""))",Firefox 64.0,,2019-01-08 15:47:18,2019-01-08 15:47:18,0.635s,PASSED
+closeBrowser(),Firefox 64.0,,2019-01-08 15:47:18,2019-01-08 15:47:19,0.947s,PASSED

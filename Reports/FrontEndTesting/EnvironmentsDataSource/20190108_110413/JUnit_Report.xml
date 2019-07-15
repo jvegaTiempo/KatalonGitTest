@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EnvironmentsDataSource" time="46" tests="0" failures="1" errors="1">
+   <testsuite name="EnvironmentsDataSource" tests="0" failures="1" errors="1" time="46" timestamp="2019-01-08 11:05:01" hostname="jessica vega - TDG-MBL-MTY0160.mshome.net" id="Test Suites/FrontEndTesting/EnvironmentsDataSource">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\FrontEndTesting\\EnvironmentsDataSource\\20190108_110413"/>
+         <property name="logFiles" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\FrontEndTesting\\EnvironmentsDataSource\\20190108_110413\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\FrontEndTesting\\EnvironmentsDataSource\\20190108_110413\\1546967146306.png"/>
+         <property name="hostName" value="jessica vega - TDG-MBL-MTY0160.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="172.31.162.49"/>
+         <property name="sessionId" value="6ef23675-c567-40b5-92cc-5622486b3a1b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Environments/TC1EnvDirectlyDataSource" classname="Test Cases/Environments/TC1EnvDirectlyDataSource" status="ERROR">
+         <error type="ERROR" message="Test Cases/Environments/TC1EnvDirectlyDataSource FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/dataTest' because (of) 'java.io.FileNotFoundException: C:\Users\jessica vega\Desktop\KatalonStudio\dataSource.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC1EnvDirectlyDataSource.run(TC1EnvDirectlyDataSource:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-08 11:05:01 - [TEST_CASE][ERROR] - Test Cases/Environments/TC1EnvDirectlyDataSource: Test Cases/Environments/TC1EnvDirectlyDataSource FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/dataTest' because (of) 'java.io.FileNotFoundException: C:\Users\jessica vega\Desktop\KatalonStudio\dataSource.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC1EnvDirectlyDataSource.run(TC1EnvDirectlyDataSource:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)
+
+
+2019-01-08 11:05:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-08 11:05:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-08 11:05:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-08 11:05:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-08 11:05:06 - [TEST_STEP][PASSED] - navigateToUrl("https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login"): Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2019-01-08 11:05:09 - [MESSAGE][PASSED] - Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2019-01-08 11:05:09 - [TEST_STEP][ERROR] - excelData = findTestData("dataTest"): excelData = findTestData("dataTest") FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/dataTest' because (of) 'java.io.FileNotFoundException: C:\Users\jessica vega\Desktop\KatalonStudio\dataSource.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC1EnvDirectlyDataSource.run(TC1EnvDirectlyDataSource:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)
+
+
+2019-01-08 11:05:09 - [MESSAGE][ERROR] - excelData = findTestData("dataTest") FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/dataTest' because (of) 'java.io.FileNotFoundException: C:\Users\jessica vega\Desktop\KatalonStudio\dataSource.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC1EnvDirectlyDataSource.run(TC1EnvDirectlyDataSource:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-08 11:05:01 - [TEST_CASE][ERROR] - Test Cases/Environments/TC1EnvDirectlyDataSource: Test Cases/Environments/TC1EnvDirectlyDataSource FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/dataTest' because (of) 'java.io.FileNotFoundException: C:\Users\jessica vega\Desktop\KatalonStudio\dataSource.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC1EnvDirectlyDataSource.run(TC1EnvDirectlyDataSource:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Environments/TC1EnvUseXlsxFile" classname="Test Cases/Environments/TC1EnvUseXlsxFile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Environments/TC1EnvUseXlsxFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' located by 'By.xpath: //span[(text() = 'Admin' or . = 'Admin')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC1EnvUseXlsxFile.run(TC1EnvUseXlsxFile:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-08 11:05:09 - [TEST_CASE][FAILED] - Test Cases/Environments/TC1EnvUseXlsxFile: Test Cases/Environments/TC1EnvUseXlsxFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' located by 'By.xpath: //span[(text() = 'Admin' or . = 'Admin')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC1EnvUseXlsxFile.run(TC1EnvUseXlsxFile:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)
+
+
+2019-01-08 11:05:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-08 11:05:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-08 11:05:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-08 11:05:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-08 11:05:13 - [TEST_STEP][PASSED] - navigateToUrl("https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login"): Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2019-01-08 11:05:15 - [MESSAGE][PASSED] - Navigate to 'https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login' successfully
+
+2019-01-08 11:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRCRM/Page_/input_txtUsername"), User): Text '' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtUsername'
+
+2019-01-08 11:05:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtUsername'
+
+2019-01-08 11:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("OrangeHRCRM/Page_/input_txtPassword"), Password): Text '' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtPassword'
+
+2019-01-08 11:05:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/OrangeHRCRM/Page_/input_txtPassword'
+
+2019-01-08 11:05:15 - [TEST_STEP][PASSED] - click(findTestObject("OrangeHRCRM/Page_/input_Submit")): Object: 'Object Repository/OrangeHRCRM/Page_/input_Submit' is clicked on
+
+2019-01-08 11:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OrangeHRCRM/Page_/input_Submit' is clicked on
+
+2019-01-08 11:05:15 - [TEST_STEP][FAILED] - click(findTestObject("OrangeHRCRM/Page_OrangeHRM/span_Admin")): click(findTestObject("OrangeHRCRM/Page_OrangeHRM/span_Admin")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' located by 'By.xpath: //span[(text() = 'Admin' or . = 'Admin')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC1EnvUseXlsxFile.run(TC1EnvUseXlsxFile:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)
+
+
+2019-01-08 11:05:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[(text() = 'Admin' or . = 'Admin')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-08 11:05:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' located by 'By.xpath: //span[(text() = 'Admin' or . = 'Admin')]' not found)
+[[ATTACHMENT|C:\\Users\\jessica vega\\git\\KatalonGitTest\\Reports\\FrontEndTesting\\EnvironmentsDataSource\\20190108_110413\\1546967146306.png]]
+
+2019-01-08 11:05:46 - [MESSAGE][FAILED] - click(findTestObject("OrangeHRCRM/Page_OrangeHRM/span_Admin")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' located by 'By.xpath: //span[(text() = 'Admin' or . = 'Admin')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC1EnvUseXlsxFile.run(TC1EnvUseXlsxFile:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-08 11:05:09 - [TEST_CASE][FAILED] - Test Cases/Environments/TC1EnvUseXlsxFile: Test Cases/Environments/TC1EnvUseXlsxFile FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OrangeHRCRM/Page_OrangeHRM/span_Admin' located by 'By.xpath: //span[(text() = 'Admin' or . = 'Admin')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC1EnvUseXlsxFile.run(TC1EnvUseXlsxFile:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-08 11:05:01 - [TEST_SUITE][ERROR] - EnvironmentsDataSource: Test Cases/Environments/TC1EnvDirectlyDataSource FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/dataTest' because (of) 'java.io.FileNotFoundException: C:\Users\jessica vega\Desktop\KatalonStudio\dataSource.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC1EnvDirectlyDataSource.run(TC1EnvDirectlyDataSource:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-08 11:05:01 - [TEST_SUITE][ERROR] - EnvironmentsDataSource: Test Cases/Environments/TC1EnvDirectlyDataSource FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/dataTest' because (of) 'java.io.FileNotFoundException: C:\Users\jessica vega\Desktop\KatalonStudio\dataSource.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:122)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC1EnvDirectlyDataSource.run(TC1EnvDirectlyDataSource:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546967053707.run(TempTestSuite1546967053707.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

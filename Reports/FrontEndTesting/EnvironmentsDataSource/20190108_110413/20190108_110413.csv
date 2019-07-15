@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EnvironmentsDataSource,Firefox 64.0,,2019-01-08 11:05:01,2019-01-08 11:05:47,46.243s,ERROR
+,,,,,,
+Test Cases/Environments/TC1EnvDirectlyDataSource,Firefox 64.0,,2019-01-08 11:05:01,2019-01-08 11:05:09,7.933s,ERROR
+"openBrowser("""")",Firefox 64.0,,2019-01-08 11:05:01,2019-01-08 11:05:06,5.295s,PASSED
+"navigateToUrl(""https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login"")",Firefox 64.0,,2019-01-08 11:05:06,2019-01-08 11:05:09,2.337s,PASSED
+"excelData = findTestData(""dataTest"")",Firefox 64.0,,2019-01-08 11:05:09,2019-01-08 11:05:09,0.041s,ERROR
+,,,,,,
+Test Cases/Environments/TC1EnvUseXlsxFile,Firefox 64.0,,2019-01-08 11:05:09,2019-01-08 11:05:46,37.175s,FAILED
+"openBrowser("""")",Firefox 64.0,,2019-01-08 11:05:09,2019-01-08 11:05:13,3.630s,PASSED
+"navigateToUrl(""https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login"")",Firefox 64.0,,2019-01-08 11:05:13,2019-01-08 11:05:15,2.033s,PASSED
+"setText(findTestObject(""OrangeHRCRM/Page_/input_txtUsername""), User)",Firefox 64.0,,2019-01-08 11:05:15,2019-01-08 11:05:15,0.114s,PASSED
+"setText(findTestObject(""OrangeHRCRM/Page_/input_txtPassword""), Password)",Firefox 64.0,,2019-01-08 11:05:15,2019-01-08 11:05:15,0.042s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_/input_Submit""))",Firefox 64.0,,2019-01-08 11:05:15,2019-01-08 11:05:15,0.246s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_OrangeHRM/span_Admin""))",Firefox 64.0,,2019-01-08 11:05:15,2019-01-08 11:05:46,30.954s,FAILED

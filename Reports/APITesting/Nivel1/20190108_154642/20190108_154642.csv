@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Nivel1,Chrome 71.0.3578.98,,2019-01-08 15:46:46,2019-01-08 15:47:02,15.633s,PASSED
+,,,,,,
+Test Cases/Environments/TC1Env,Chrome 71.0.3578.98,,2019-01-08 15:46:46,2019-01-08 15:47:02,15.353s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-08 15:46:46,2019-01-08 15:46:50,3.441s,PASSED
+navigateToUrl(URL),Chrome 71.0.3578.98,,2019-01-08 15:46:50,2019-01-08 15:46:52,2.186s,PASSED
+"setText(findTestObject(""OrangeHRCRM/Page_/input_txtUsername""), User)",Chrome 71.0.3578.98,,2019-01-08 15:46:52,2019-01-08 15:46:52,0.213s,PASSED
+"setText(findTestObject(""OrangeHRCRM/Page_/input_txtPassword""), Password)",Chrome 71.0.3578.98,,2019-01-08 15:46:52,2019-01-08 15:46:52,0.140s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_/Submit""))",Chrome 71.0.3578.98,,2019-01-08 15:46:52,2019-01-08 15:46:55,2.758s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_OrangeHRM/span_Admin""))",Chrome 71.0.3578.98,,2019-01-08 15:46:55,2019-01-08 15:46:57,2.223s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_OrangeHRM/span_Recruitment""))",Chrome 71.0.3578.98,,2019-01-08 15:46:57,2019-01-08 15:46:59,2.083s,PASSED
+"click(findTestObject(""OrangeHRCRM/Page_OrangeHRM/a_Logout""))",Chrome 71.0.3578.98,,2019-01-08 15:46:59,2019-01-08 15:47:01,1.319s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-08 15:47:01,2019-01-08 15:47:02,0.759s,PASSED
